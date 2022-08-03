@@ -1,0 +1,98 @@
+Introduction to C programming language
+
+C is a middile level language which was originated in the 197's
+
+Advantage of a middle level language:
+- They can act as a bridge as a high level software and a low level hardware.
+- most compilers, kernels and operating system are written in C.
+- C is the mother language of python, java, C#, C++ and jaascript
+
+Note:
+- C is not an object oriented language
+- C++ is an extension of C
+- C is difficult
+
+what do you need to start C
+- IDE(Text Editor)
+- GCC compiler(it convert C code to machine codes)
+
+For extention:
+- Install C/C++
+- Code runner
+
+you should start with this on your environment before coding
+#include<stdio.h>
+#include<stdbool.h>
+#include<string.h>
+
+vairable:
+
+it is an allocated space to store variable.
+steps: declerations and initialization.
+
+comments: // - inline /* */ - multilines 
+
+List of Escape Sequences in C: 
+Escape Sequence 	Meaning
+\a	                Alarm or Beep
+\b	                Backspace
+\f	                Form Feed
+\n	                New Line
+\r	                Carriage Return
+\t	                Tab (Horizontal)
+\v	                Vertical Tab
+\\	                Backslash
+\'	                Single Quote
+\"	                Double Quote
+\?	                Question Mark
+\nnn	            octal number
+\xhh	            hexadecimal number
+\0	                Null
+
+There are 4 primary date types in C program
+
+1. Integer – We use these for storing various whole numbers, such as 5, 8, 67, 2390, etc.
+
+2. Character – It refers to all ASCII character sets as well as the single alphabets, such as ‘x’, ‘Y’, etc.
+
+3. Double – These include all large types of numeric values that do not come under either floating-point data type or integer data type.
+
+4. Floating-point – These refer to all the real number values or decimal points, such as 40.1, 820.673, 5.9, etc.
+
+5. Void – This term refers to no values at all. We mostly use this data type when defining the functions in a program.
+
+Various keywords are used in a program for specifying the data types mentioned above. Here are the keywords that we use:
+
+Keyword Used	Data Type
+int	            Integer
+float	        Floating-point
+void	        Void
+char	        Character
+double	        Double
+
+Other data types:
+bool            boolean
+
+Format Specifier %:
+Defines and formats a type of data to be displayed
+
+Constant: it is a fixed value that cannot be altered by the program during its execution
+
+Arithmetic operator:
+Operator	Meaning of Operator
++	        addition or unary plus
+-	        subtraction or unary minus
+*	        multiplication
+/	        division
+%	        remainder after division (modulo division)
+--          decrement
+++          increment
+
+Augumented assignment: it is used to replace a statement where an operator takes a variable as one of its arguments and then assigns the result back to the same variable. e.g x= x+1, x+=1
+
+
+User input:
+-Go to file 
+-click on preferences
+- serch for code runner
+- check; code runner RUN IN TERMINAL
