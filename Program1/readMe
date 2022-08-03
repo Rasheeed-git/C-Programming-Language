@@ -24,6 +24,7 @@ you should start with this on your environment before coding
 #include<stdio.h>
 #include<stdbool.h>
 #include<string.h>
+#include<math.h>
 
 vairable:
 

@@ -1,6 +1,7 @@
 #include<stdio.h>
 #include<stdbool.h>
 #include<string.h>
+#include<math.h>
 
 // This is my first C code 
 // int main(){
@@ -117,4 +118,21 @@
 //     printf("\nYour name is %s\nYou are %d years old\nCongratulations your gpa, %f is good but you can do better.", name, age, gpa);
 //     return 0;
 // }
+
+int main(){
+    double A= sqrt(9);
+    short int B= pow(2,4);
+    short int C= round(3.14);
+    short int D= ceil(3.14);
+    short int E= floor(3.99);
+    short int F= fabs(-100);
+    double G = log(3);
+    double H = sin(45);
+    double I = cos(45);
+    double J = tan(45);
+
+printf("%lf\n%d\n%d\n%d\n%d\n%d\n%lf\n%lf\n%lf\n%lf", A,B,C,D,E,F,G,H,I,J);
+    return 0;
+
+}
 
