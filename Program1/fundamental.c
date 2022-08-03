@@ -101,20 +101,20 @@
 
 // }
 
-int main(){
-    short int age;
-    char name[300];
-    float gpa;
-    printf("What is your name?\n");
-    //scanf("%s", &name);
-    fgets(name, 300, stdin);
-    name[strlen(name)-1] = '\0';
-    printf("How old are you?\n");
-    scanf("%d", &age);
-    printf("What is your gpa?\n");
-    scanf("%f", &gpa);
+// int main(){
+//     short int age;
+//     char name[300];
+//     float gpa;
+//     printf("What is your name?\n");
+//     //scanf("%s", &name);
+//     fgets(name, 300, stdin);
+//     name[strlen(name)-1] = '\0';
+//     printf("How old are you?\n");
+//     scanf("%d", &age);
+//     printf("What is your gpa?\n");
+//     scanf("%f", &gpa);
 
-    printf("\nYour name is %s\nYou are %d years old\nCongratulations your gpa, %f is good but you can do better.", name, age, gpa);
-    return 0;
-}
+//     printf("\nYour name is %s\nYou are %d years old\nCongratulations your gpa, %f is good but you can do better.", name, age, gpa);
+//     return 0;
+// }
 
