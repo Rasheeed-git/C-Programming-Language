@@ -25,6 +25,7 @@ you should start with this on your environment before coding
 #include<stdbool.h> - boolean
 #include<string.h> - eleminate white space
 #include<math.h> - arithmetics
+#include <ctype.h>- changing the string to uppercase or lowaercase
 
 vairable:
 
@@ -122,3 +123,20 @@ A more efficient alternative to using many 'else if' statements. It allows a avl
 -If there is a match, the associated block of code is executed
 -The break statement breaks out of the switch block and stops the execution
 -The default statement is optional, and specifies some code to run if there is no case match
+
+Functions:
+A function is a block of code which only runs when it is called.
+You can pass data, known as parameters, into a function.
+Functions are used to perform certain actions, and they are important for reusing code: Define the code once, and use it many times.
+
+Arguments and Parameter:
+Parameter- Information can be passed to functions as a parameter. Parameters act as variables inside the function.
+Parameters are specified after the function name, inside the parentheses. You can add as many parameters as you want, just separate them with a comma:
+Arguments- An argument is referred to the values that are passed within a function when the function is called. These values are generally the source of the function that require the arguments during the process of execution. These values are assigned to the variables in the definition of the function that is called.
+
+Return statement:
+A return statement ends the execution of a function, and returns control to the calling function. Execution resumes in the calling function at the point immediately following the call. A return statement can return a value to the calling function
+The void keyword, used in the previous examples, indicates that the function should not return a value. If you want the function to return a value, you can use a data type (such as int or float, etc.) instead of void, and use the return keyword inside the function:
+
+Tenary operator:
+There is also a short-hand if else, which is known as the ternary operator because it consists of three operands. It can be used to replace multiple lines of code with a single line. It is often used to replace simple if else statements.

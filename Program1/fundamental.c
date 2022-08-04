@@ -2,6 +2,7 @@
 #include<math.h>
 #include<stdbool.h>
 #include<string.h>
+#include <ctype.h>
 
 
 // This is my first C code 
@@ -160,25 +161,95 @@
 // }
 
 //Switch statement
-int main(){
-    char grade;
-    printf("\nEnter your grade: ");
-    scanf("%c", &grade);
-    switch(grade){
-        case 'A' : printf("Excellent!");
-        break;
-        case 'B' : printf("Good!");
-        break;
-        case 'C' : printf("Average!");
-        break;
-        case 'D' : printf("Poor!");
-        break;
-        case 'F' : printf("Fail!");
-        break;
-        default: printf("Not a Grade!");
-    }
+// int main(){
+//     char grade;
+//     printf("\nEnter your grade: ");
+//     scanf("%c", &grade);
+//     grade= toupper(grade);
+//     switch(grade){
+//         case 'A' : printf("Excellent!");
+//         break;
+//         case 'B' : printf("Good!");
+//         break;
+//         case 'C' : printf("Average!");
+//         break;
+//         case 'D' : printf("Poor!");
+//         break;
+//         case 'F' : printf("Fail!");
+//         break;
+//         default: printf("Not a Grade!");
+//     }
 
+//     return 0;
+// }
+
+//&& logical operator
+// int main(){
+//     float temp= 25;
+//     bool sunny= false;
+//     if(temp >= 0 && temp<=20 && sunny){
+//         printf("Good weather!");
+//     }
+//     else{
+//         printf("Bad weather!");
+//     }
+//     return 0;
+// }
+
+// || and ! logical operator
+// int main(){
+//     float temp= 25;
+//     bool sunny= false;
+//     if(temp >= 0 && temp<=20 || !sunny){
+//         printf("Good weather!");
+//     }
+//     else{
+//         printf("Bad weather!");
+//     }
+//     return 0;
+// }
+
+// functions
+// void birthday(){
+//     printf("\nHappy Birthday Faith.");
+//     printf("\nHappy Birthday Orji.");
+//     printf("\nHappy Birthday Jeremiah.");
+//     printf("\nHappy Birthday Kenneth.\n");
+// }
+
+// int main(){
+//     birthday();
+//     return 0;
+// }
+
+// arguments and parameters
+//  void introduction(char name[], short int age){
+//     printf("\nMy name is %s", name);
+//     printf("\nI am %d years old.", age);
+//  }
+
+// int main(){
+//     char name[]= "Olukayode Ifeoluwa joshua";
+//     short int age= 25;
+//     introduction(name, age);
+//     return 0;
+// }
+
+// return statement
+// double triple(double i){
+//     return pow(i, 3);
+// }
+// int main(){
+//     double k= triple(3);
+//     printf("%lf", k);
+// }
+
+//Tenary operator
+int findMax( int x, int y){
+    return x > y ? true : false;
+}
+int main(){
+    bool max= findMax(3,4);
+    printf("%d",max);
     return 0;
 }
-
-
