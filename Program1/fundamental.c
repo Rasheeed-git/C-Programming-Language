@@ -1,7 +1,8 @@
 #include<stdio.h>
+#include<math.h>
 #include<stdbool.h>
 #include<string.h>
-#include<math.h>
+
 
 // This is my first C code 
 // int main(){
@@ -119,20 +120,65 @@
 //     return 0;
 // }
 
+// int main(){
+//     double A= sqrt(9);
+//     short int B= pow(2,4);
+//     short int C= round(3.14);
+//     short int D= ceil(3.14);
+//     short int E= floor(3.99);
+//     short int F= fabs(-100);
+//     double G = log(3);
+//     double H = sin(45);
+//     double I = cos(45);
+//     double J = tan(45);
+
+// printf("%lf\n%d\n%d\n%d\n%d\n%d\n%lf\n%lf\n%lf\n%lf", A,B,C,D,E,F,G,H,I,J);
+//     return 0;
+
+// }
+
+//if-else statement
+// int main(){
+// int age;
+
+// printf("\nEnter your age: ");
+// scanf("%d", &age);
+
+// if(age >= 18){
+//     printf("You are now signed up!");
+// }
+// else if(age == 0){
+//     printf("You can't sign up, you are just born!");
+// }
+// else if (age < 0){
+//     printf("You haven't been born yet!");
+// }
+// else{
+//     printf("You are too young to sign up!");
+// }
+// return 0;
+// }
+
+//Switch statement
 int main(){
-    double A= sqrt(9);
-    short int B= pow(2,4);
-    short int C= round(3.14);
-    short int D= ceil(3.14);
-    short int E= floor(3.99);
-    short int F= fabs(-100);
-    double G = log(3);
-    double H = sin(45);
-    double I = cos(45);
-    double J = tan(45);
+    char grade;
+    printf("\nEnter your grade: ");
+    scanf("%c", &grade);
+    switch(grade){
+        case 'A' : printf("Excellent!");
+        break;
+        case 'B' : printf("Good!");
+        break;
+        case 'C' : printf("Average!");
+        break;
+        case 'D' : printf("Poor!");
+        break;
+        case 'F' : printf("Fail!");
+        break;
+        default: printf("Not a Grade!");
+    }
 
-printf("%lf\n%d\n%d\n%d\n%d\n%d\n%lf\n%lf\n%lf\n%lf", A,B,C,D,E,F,G,H,I,J);
     return 0;
-
 }
+
 

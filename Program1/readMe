@@ -22,9 +22,9 @@ For extention:
 
 you should start with this on your environment before coding
 #include<stdio.h>
-#include<stdbool.h>
-#include<string.h>
-#include<math.h>
+#include<stdbool.h> - boolean
+#include<string.h> - eleminate white space
+#include<math.h> - arithmetics
 
 vairable:
 
@@ -97,3 +97,28 @@ User input:
 -click on preferences
 - serch for code runner
 - check; code runner RUN IN TERMINAL
+
+If-else statetement: The if-else statement in C is used to perform the operations based on some specific condition. The operations specified in if block are executed if and only if the given condition is true.
+
+Comparism operators:
+Operator	        Name
+==	                Equal to	
+!=	                Not equal	
+>	                Greater than	
+<	                Less than	
+>=	                Greater than or equal to
+<=	                Less than or equal to
+
+Logical Operators:
+Operator	    Name	                Description	Example	Try it
+&& 	            Logical and	            Returns true if both statements are true
+|| 	            Logical or	            Returns true if one of the statements is true
+!	            Logical not	            Reverse the result, returns false if the result is true
+
+Switch statements:
+A more efficient alternative to using many 'else if' statements. It allows a avlue to be tested for equality againsts many cases.
+-The switch expression is evaluated once
+-The value of the expression is compared with the values of each case
+-If there is a match, the associated block of code is executed
+-The break statement breaks out of the switch block and stops the execution
+-The default statement is optional, and specifies some code to run if there is no case match

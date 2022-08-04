@@ -13,3 +13,4 @@ c = sqrt((pow(a,2)) + (pow(b,2)));
 printf("\nThe hypotenous(c) of the triangle is %lf", c);
 return 0;
 }
+
