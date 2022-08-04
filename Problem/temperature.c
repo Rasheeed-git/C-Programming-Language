@@ -8,7 +8,7 @@ int main(){
       double temperature;
       
       
-      printf("\nChose the temperature you are converting to:\n(C) for celcius or (F) for fahrenheit: ");
+      printf("\nChoose the temperature you are converting to:\n(C) for celcius or (F) for fahrenheit: ");
       scanf("%c", &unit);
 
       unit= toupper(unit);
