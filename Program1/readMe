@@ -140,3 +140,24 @@ The void keyword, used in the previous examples, indicates that the function sho
 
 Tenary operator:
 There is also a short-hand if else, which is known as the ternary operator because it consists of three operands. It can be used to replace multiple lines of code with a single line. It is often used to replace simple if else statements.
+
+ Function prototype: A funtion decleration without a body, before main()
+ NB: Many C compiler do not check for parameter matching
+     Missing argumenents will result in unexpected bahaviour 
+A function prototyes causes the compiler to flag an error if the arguments are missing.
+Advantage of function prototype
+1. Easier to navigate a program w/ main() at the top
+2. Helps with debugging
+3. Commonly used in header files
+
+String function:
+	Function	                            Description
+    strlen(string_name)                     returns the length of string name.
+    strcpy(destination, source)             copies the contents of source string to destination string.
+	strcat(first_string, second_string)     concats or joins first string with second string. The result of the string is stored in first string.
+	strcmp(first_string, second_string)     compares the first string with second string. If both strings are same, it returns 0.
+	strrev(string)                          returns reverse string.
+	strlwr(string)                          returns string characters in lowercase.
+	strupr(string)                          returns string characters in uppercase.
+check code base(fundamental.c) to see other string functions
+

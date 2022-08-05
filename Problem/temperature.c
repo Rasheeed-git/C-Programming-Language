@@ -21,7 +21,7 @@ int main(){
       }
       else if(unit == 'F'){
          printf("\nInput your tempertature in Celcius: ");
-         scanf("\n%lf", &temperature);
+         scanf("\n%lf", &temperature); 
          temperature= (temperature * 9 / 5) + 32;
          printf("\nThe temperature is  %lf Farenheit", temperature);
       }

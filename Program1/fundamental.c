@@ -245,11 +245,58 @@
 // }
 
 //Tenary operator
-int findMax( int x, int y){
-    return x > y ? true : false;
-}
+// int findMax( int x, int y){
+//     return x > y ? x : y;
+// }
+// int main(){
+//     int max= findMax(3,4);
+//     printf("%d",max);
+//     return 0;
+// }
+
+// function prototype
+
+// void intro(char[], int);
+
+// int main(){
+//     char name[] = "Olukayode Ifeoluwa Joshua";
+//     int age= 25;
+//     intro(name, age);
+//     return 0;
+// }
+
+
+// void intro(char name[], int age){
+//     printf("\nMy name is %s", name);
+//     printf("\nI am %d years old", age);
+// }
+
+// string function
 int main(){
-    bool max= findMax(3,4);
-    printf("%d",max);
+    char string1[] = "ifeoluwa";
+    char string2[] = "Ifeoluwa";
+
+   //double a= strlen(string1);
+   //strlwr(string1);
+   //strcat(string1, string2); 
+   //strncat(string1, string2, 3);
+   //strcpy(string1, string2);
+   //strncpy(string1, string2, 3);
+   //strset(string1, '*');
+   //strnset(string1, '*', 2);
+   //strrev(string1);
+   //int result = strcmp(string1, string2);
+   //int result = strnicmp(string1, string2, 2);
+    int result = strcmpi(string1, string2);
+    if(result == 0){
+        printf("\nThe strings are the same.\n");
+    }
+    else{
+        printf("\nThe strings are not the same.\n");
+    }
+
+
+    //printf("%lf,%d", a, result);
     return 0;
 }
+
