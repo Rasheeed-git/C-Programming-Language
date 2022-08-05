@@ -272,9 +272,9 @@
 // }
 
 // string function
-int main(){
-    char string1[] = "ifeoluwa";
-    char string2[] = "Ifeoluwa";
+// int main(){
+//     char string1[] = "ifeoluwa";
+//     char string2[] = "Ifeoluwa";
 
    //double a= strlen(string1);
    //strlwr(string1);
@@ -287,16 +287,89 @@ int main(){
    //strrev(string1);
    //int result = strcmp(string1, string2);
    //int result = strnicmp(string1, string2, 2);
-    int result = strcmpi(string1, string2);
-    if(result == 0){
-        printf("\nThe strings are the same.\n");
-    }
-    else{
-        printf("\nThe strings are not the same.\n");
-    }
+//     int result = strcmpi(string1, string2);
+//     if(result == 0){
+//         printf("\nThe strings are the same.\n");
+//     }
+//     else{
+//         printf("\nThe strings are not the same.\n");
+//     }
 
 
-    //printf("%lf,%d", a, result);
-    return 0;
+//     //printf("%lf,%d", a, result);
+//     return 0;
+// }
+
+// for loop
+// int main(){
+
+
+//     for(int i= 10; i>0; i-=2){
+//         printf("%d\n", i);
+//     }
+//     return 0;
+// }
+
+
+//while loop
+//  int main(){
+//     char name[100];
+//     printf("\nPlease input your name: ");
+//     fgets(name, 100, stdin);
+//     name[strlen(name)-1] = '\0';
+//     while (strlen(name) == 0)
+//     {
+//     printf("\nSorry you need to input your name : ");
+//     fgets(name, 100, stdin);
+//     name[strlen(name)-1]= '\0';
+//     }
+    
+//     printf("\nWelcome %s\n", name);
+//     return 0;
+
+//  }
+
+//Do while-loop
+// int main(){
+
+//     int number= 1;
+//     int sum= 0;
+//     do{
+//         printf("\nEnter number # above: ");
+//         scanf("%d", &number);
+//         if(number > 0){
+//             sum += number;
+//         }
+//     } while(number > 0);
+//     printf("\nsum = %d", sum);
+//     return 0;
+// }
+
+//Nested loop 
+int main(){
+    int row;
+    int column;
+    char symbol;
+
+    printf("\nrow = ");
+    scanf("%d", &row);
+
+    printf("\ncolumn = ");
+    scanf("%d", &column);
+
+    scanf("%c");
+
+    printf("\nsymbol = ");
+    scanf("%c", &symbol);
+
+     
+
+    for(int i = 1; i <= row; i++){
+        for(int j = 1; j <= column; j++){
+            printf("%c", symbol);
+        }
+        printf("\n");
+    }
+
+return 0;
 }
-
