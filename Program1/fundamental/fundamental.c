@@ -500,17 +500,5 @@
 //    return 0;
 // }
 
-void sort(int arry[], int size){
- 
-}
-
-//sorting an array
-int main(){
-   int array[]= {9, 1, 8, 2, 7, 3, 6, 4, 5};
-   int size = sizeof(array)/sizeof(array[0]);
-   
-   sort(array, size);   
-   return;
-}
 
 
