@@ -190,3 +190,14 @@ Array indexes start with 0: [0] is the first element. [1] is the second element,
 This statement accesses the value of the first element [0] in myNumbers
 
 2D Array: an array, where each element is an entire array. Useful if you need a matrix, grid, or table of data.
+
+Stucture(struct):
+It is a collection of related members ("Variable"). Thay can be of different data types. They are listed under one name in a block of momery. It is very similar to clases in other languaes (but not methods)
+Structures (also called structs) are a way to group several related variables into one place. Each variable in the structure is known as a member of the structure.
+Unlike an array, a structure can contain many different data types (int, float, char, etc.).
+
+To access the structure, you must create a variable of it.
+Use the struct keyword inside the main() method, followed by the name of the structure and then the name of the structure variable.
+
+typdef: reserved keyword that gives an existing datatype a nickname
+

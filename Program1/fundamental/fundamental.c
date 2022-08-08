@@ -500,5 +500,49 @@
 //    return 0;
 // }
 
+//struct
+
+// struct Player{
+//    char name[12];
+//    int score;
+// };
 
 
+// int main(){
+
+//    struct Player player1 = {"Olukayode", 2};
+//    struct Player player2;
+
+//    // strcpy(player1.name, "Ifeoluwa");
+//    // player1.score= 12;
+
+//    // strcpy(player2.name, "Ifeoluwa");
+//    // player2.score= 10;
+
+
+//    printf("name: %s\nscore: %d", player1.name, player1.score);
+
+
+//    return 0;
+// }
+
+// typedef
+
+// typedef char user[25];
+
+// typedef struct {
+//    char name[25];
+//    int pin;
+//    char sex;
+// } Student;
+
+// int main(){
+
+//    Student student= {"Olukayode", 1234, 'M'};
+
+//    printf("name: %s\npin: %d\nsex: %c", student.name, student.pin, student.sex);
+//    return 0;
+// }
+
+// Array of struct
+ 
