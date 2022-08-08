@@ -2,7 +2,9 @@
 #include<math.h>
 #include<stdbool.h>
 #include<string.h>
-#include <ctype.h>
+#include<ctype.h>
+#include<stdlib.h>
+#include<time.h>
 
 
 // This is my first C code 
@@ -23,7 +25,7 @@
 // x= 123; //initialization
 // int y = 123; //decleration + initialization
 
-// int age= 21;//integer %d
+// int age= 21;//integer %d- 4bytes
 // float gpa= 4.90;// floating point number- 4bytes(32 bits of precision)(6-7digits) %f
 // char grade= 'A'; //single chracter %c
 // char name[]= "Bro"; //array of characters %s
@@ -346,30 +348,169 @@
 // }
 
 //Nested loop 
-int main(){
-    int row;
-    int column;
-    char symbol;
+// int main(){
+//     int row;
+//     int column;
+//     char symbol;
 
-    printf("\nrow = ");
-    scanf("%d", &row);
+//     printf("\nrow = ");
+//     scanf("%d", &row);
 
-    printf("\ncolumn = ");
-    scanf("%d", &column);
+//     printf("\ncolumn = ");
+//     scanf("%d", &column);
 
-    scanf("%c");
+//     scanf("%c");
 
-    printf("\nsymbol = ");
-    scanf("%c", &symbol);
+//     printf("\nsymbol = ");
+//     scanf("%c", &symbol);
 
      
 
-    for(int i = 1; i <= row; i++){
-        for(int j = 1; j <= column; j++){
-            printf("%c", symbol);
-        }
-        printf("\n");
-    }
+//     for(int i = 1; i <= row; i++){
+//         for(int j = 1; j <= column; j++){
+//             printf("%c", symbol);
+//         }
+//         printf("\n");
+//     }
 
-return 0;
+// return 0;
+// }
+
+//Continue vs break
+// int main(){
+//     int number1;
+//     int number2;
+//     int count;
+
+//     printf("\nEnter the first number you want us too skip: ");
+//     scanf("%d", &number1);
+
+//     printf("\nEnter the second number you want us too skip: ");
+//     scanf("%d", &number2);
+
+//     printf("\ncount: ");
+//     scanf("%d", &count);
+
+//     for(int i= 1; i <= count; i++){
+//         if(i == number1 || i == number2 ){
+//             continue;
+//         }
+//         printf("%d\n", i);
+//     }
+//     return 0;
+// }
+
+// int main(){
+//     int number;
+
+//     srand(time(NULL));
+//     int count= rand() % 10 + 1;
+    
+//     // printf("\nPredict where the count will stop: ");
+//     // scanf("%d", &number);
+
+
+//     for(int i= 1; i <= count; i++){
+//         // if(i == number ){
+//         //     break;
+//         // }
+//         printf("%d\n", i);
+//     }
+//     return 0;
+// }
+
+// Array
+// int main(){
+
+//     int prices[] = {2, 3, 4, 6, 7};
+//     for(int i = 0; i < sizeof(prices)/sizeof(prices[0]); i++){
+//         printf("$%d\n", prices[i]);
+
+//     }
+    
+//     return 0;
+// }
+
+//2D Array
+// int main()
+
+// {
+//    //  int number[][3]= {
+//    //                   {1, 2, 3, 7},
+//    //                   {4, 5, 6, 8}
+//    //                   };
+//    int numbers[2][4];
+
+//    numbers[0][0]=1;
+//    numbers[0][1]=2;
+//    numbers[0][2]=3;
+//    numbers[1][0]=4;
+//    numbers[1][1]=5;
+//    numbers[1][2]=6;
+//    numbers[0][3]=7;
+//    numbers[1][3]=8;
+   
+
+// for(int i= 0; i< (sizeof(numbers)/sizeof(numbers[0])); i++){
+//    for(int j=0; j< (sizeof(numbers[0])/sizeof(numbers[0][0])); j++){
+//       printf("%d", numbers[i][j] );
+//    }
+
+//    printf("\n");
+// }
+
+
+//     return 0;
+// } 
+
+//Array of string 
+// int main(){
+//    char fruits[][10] = {"Mango", "corn", "pineapple"};
+//    strcpy(fruits[0], "orange");
+
+//    for(int i= 0; i< (sizeof(fruits)/sizeof(fruits[0])); i++){
+//       printf("\n%s\n", fruits[i] );
+//    }
+
+// }
+
+//Swap values of two variables
+// int main(){
+
+//    // char x= 'X';
+//    // char y= 'Y';
+//    // char z;
+
+//    char firstname[10]= "Ifeoluwa";
+//    char lastname[10]= "Olukayode";
+//    char nameswitch[10];
+
+
+//    // z= x;
+//    // x= y;
+//    // y= z;
+
+//    strcpy(nameswitch, firstname);
+//    strcpy(firstname, lastname);
+//    strcpy(lastname, nameswitch);
+
+//    printf("\nfirst name: %s", firstname);
+//    printf("\nlast name: %s", lastname);
+
+//    return 0;
+// }
+
+void sort(int arry[], int size){
+ 
 }
+
+//sorting an array
+int main(){
+   int array[]= {9, 1, 8, 2, 7, 3, 6, 4, 5};
+   int size = sizeof(array)/sizeof(array[0]);
+   
+   sort(array, size);   
+   return;
+}
+
+

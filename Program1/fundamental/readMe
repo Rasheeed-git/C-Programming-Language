@@ -26,6 +26,8 @@ you should start with this on your environment before coding
 #include<string.h> - eleminate white space
 #include<math.h> - arithmetics
 #include <ctype.h>- changing the string to uppercase or lowaercase
+#include<stdlib.h>
+#include<time.h>
 
 vairable:
 
@@ -173,3 +175,18 @@ Statement 3 is executed (every time) after the code block has been executed.
 while loop: It repeats a section of code possibly unlimited times; while some condition remains true. A while loop might not executr at all.
 
 Do while-loop: it always execute a block of code once, then checks a condition.
+
+Continue and break
+countinue: It skips the rest pof code & forces the next iteration of the loop 
+break: it exits a loop/switch
+
+Array:
+Arrays are used to store multiple values in a single variable, instead of declaring separate variables for each value.
+To create an array, define the data type (like int) and specify the name of the array followed by square brackets [].
+To insert values to it, use a comma-separated list, inside curly braces{}
+
+To access an array element, refer to its index number.
+Array indexes start with 0: [0] is the first element. [1] is the second element, etc.
+This statement accesses the value of the first element [0] in myNumbers
+
+2D Array: an array, where each element is an entire array. Useful if you need a matrix, grid, or table of data.
