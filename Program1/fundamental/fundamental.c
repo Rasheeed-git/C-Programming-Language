@@ -53,26 +53,26 @@
 //Format Specifier %
 // int main(){
 
-//    // %c = character
-//    // %s = string(array of characters)
-//    // %f= float
-//    // %lf= double
-//    // %d = integer
+   // %c = character
+   // %s = string(array of characters)
+   // %f= float
+   // %lf= double
+   // %d = integer
 
-//    // %.1 = decimal place
-//    // %1 = minimum field width
-//    // %- = left align
+   // %.1 = decimal place
+   // %1 = minimum field width
+   // %- = left align
 
 //    float item1= 5.75;
 //    float item2= 10.00;
 //    float item3 = 100.99;
 
-//     printf("item 1 : %-8.1f", item1);
+//     printf("item 1 : %-50.1f", item1);
 
 //    return 0;
 // }
 
-// //constant
+//constant
 // int main(){
 //    const float PI= 3.14159;
 //    printf("%f", PI);
@@ -256,7 +256,9 @@
 //     return 0;
 // }
 
-// function prototype
+
+
+//function prototype
 
 // void intro(char[], int);
 
@@ -545,4 +547,58 @@
 // }
 
 // Array of struct
- 
+// typedef struct  
+// {
+//    char name[100];
+//    float cgpa;
+//    char result;
+// } Student;
+
+// int main(){
+
+//    Student student1= {"Olukayode", 4.90, 'P'};
+//    Student student2= {"Tolu", 3.00, 'P'};
+//    Student student3= {"Gabriel", 2.00, 'F'};
+//    Student student4= {"Shina", 1.90, 'F'};
+
+//    Student students[]= {student1, student2, student3, student4};
+
+//    for(int i= 0; i< sizeof(students)/sizeof(students[0]); i++){
+//       printf("%-12s\t %-12.2f\t %c\n", students[i].name, students[i].cgpa, students[i].result);
+//    }
+//    return 0;
+// }
+
+// enum
+// enum Day{Sun = 1, Mon = 2, Tue = 3, Wed = 4, Thu = 5, Fri = 6, Sat = 7};
+
+// int main(){
+
+//    enum Day day = 4;
+
+//    if(day == 1 || day ==7){
+//       printf("It is weekend baby!");
+//    }
+//    printf("Go to work o!");
+
+//    return 0;
+// }
+
+//Random Number
+// int main(){
+
+//    srand(time(0));
+
+//    int dice1= (rand() % 6 )+1;
+//     int dice2= (rand() % 6 )+1;
+//      int dice3= (rand() % 6 )+1;
+//       int dice4= (rand() % 6 )+1;
+//        int dice5= (rand() % 6 )+1;
+//         int dice6= (rand() % 6 )+1;
+
+//    printf("%d\n%d\n%d\n%d\n%d\n%d ", dice1,dice2,dice3,dice4,dice5,dice6);
+
+
+//    return 0;
+// }
+
