@@ -237,3 +237,7 @@ Advantage of using pointer:
 5. Researching and sorting large data very easily.
 4. Dynamically memory allocation
 
+C writing files :
+ w- write
+ a- append
+ remove("test.txt")- delete
