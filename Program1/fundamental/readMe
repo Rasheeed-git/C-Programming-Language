@@ -205,3 +205,35 @@ Enums: The enum in C is also known as the enumerated type. It is a user-defined 
 The following is the way to define the enum in C
 
 Random number: A set of value or element that are statistically random(Dont use these for any sort of cryptographic security)
+
+BITWISE OPERATION: special operatore used in bit level programming (Knowing binary is important for this topic)
+
+& = AND
+| = OR
+^ = XOR
+<< = left shift
+>> = right shift
+
+Memory:
+memory: an array of bytes within RAM(street)
+memory block : a single unit (byte) within memory, used to hold some value (person)
+memory address: When a variable is created in C, a memory address is assigned to the variable.(house address)
+
+The memory address is the location of where the variable is stored on the computer.
+When we assign a value to the variable, it is stored in this memory address.
+To access it, use the reference operator (&), and the result will represent where the variable is stored
+
+Note: The memory address is in hexadecimal form (0x..). You probably won't get the same result in your program.
+You should also note that &myAge is often called a "pointer". A pointer basically stores the memory address of a variable as its value. To print pointer values, we use the %p format specifier.
+
+Pointer: A pointer is a variable that stores the memory address of another variable as its value.
+A pointer variable points to a data type (like int) of the same type, and is created with the * operator(indirectional operator- Value at address). The address of the variable you're working with is assigned to the pointer
+
+Advantage of using pointer:
+1. Less time in program execution.
+2. Working on the original variable.
+3. with the help of pointers, we can create data structures(linked-list, stack, queue).
+4. Returning more than one values from functions.
+5. Researching and sorting large data very easily.
+4. Dynamically memory allocation
+

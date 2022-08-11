@@ -29,7 +29,7 @@
 // float gpa= 4.90;// floating point number- 4bytes(32 bits of precision)(6-7digits) %f
 // char grade= 'A'; //single chracter %c
 // char name[]= "Bro"; //array of characters %s
-// double total = 20.78366374748883838;//double - 8bits(64 bits of pecision)(15-16 digits) %lf
+// double total = 20.78366374748883838;//double - 8bytes(64 bits of pecision)(15-16 digits) %lf
 // bool status= true;//1 byte(true or false) %d
 
 // char score= 100; //1 byte (-128 to +127) %d or %c
@@ -602,3 +602,76 @@
 //    return 0;
 // }
 
+
+// Bitwise operation
+// int main(){
+
+//    int x = 6;   //00000110
+//    int y = 12;  //00001100
+//    int z = 0;   //00000000
+//    int k = 0;
+
+//    z = x & y;
+//    printf("AND = %d\n", z);
+
+//    z = x | y;
+//    printf("OR = %d\n", z);
+
+//    z= x ^ y;
+//    printf("XOR = %d\n", z);
+
+//    z= x << 1;
+//    printf("XOR = %d\n", z);
+
+//    k= z >> 2;
+//    printf("XOR = %d\n", k);
+//    return 0;
+// }
+
+
+// memory addresses
+// int main(){
+
+
+//    double a= 'X';
+//    double b= 'Y';
+//    double c= 'Z';
+
+
+//    printf("%d bytes\n", sizeof(a));
+//    printf("%d bytes\n", sizeof(b));
+//    printf("%d bytes\n", sizeof(c));
+
+
+//    printf("%p\n", &a);
+//    printf("%p\n", &b);
+//    printf("%p", &c);
+//    return 0;
+// }
+
+// Pointer
+
+// void printAge(int *pAge){
+//    printf("You are %d years old", *pAge);
+// }
+
+
+// int main(){
+
+// int age = 21;
+// int *pAge = NULL;
+// pAge= &age; 
+
+// // printf("Address of age: %p\n", &age);
+// // printf("Value of age: %d\n", age);
+
+// // printf("Size of age: %d\n", sizeof(age));
+// // printf("Size of page: %d\n", sizeof(pAge));
+
+// // printf("Address of pAge: %p\n", &*pAge);
+// // printf("Value of pAge: %d\n", *pAge);
+
+
+// printAge(pAge);
+//    return 0;
+// }
