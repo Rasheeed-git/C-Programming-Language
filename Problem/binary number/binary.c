@@ -28,7 +28,8 @@
     int middle = length /2;
 
     char temp;
-    for(int i = 0; i < middle; i++){
+    int i;
+    for(i = 0; i < middle; i++){
         temp = binary[i];
         binary[i] = binary[length - i - 1];
         binary[length -i - 1]= temp;
