@@ -8,9 +8,11 @@
 
 
 void sort(int array[], int size){
-
-    for(int i=0; i < size-1; i++){
-        for (int j=0; j < size-i-1; j++)
+	
+	int i;
+    for(i=0; i < size-1; i++){
+    	int j;
+        for (j=0; j < size-i-1; j++)
         {
            if(array[j] < array[j+1]){
             int temp= array[j];
@@ -24,7 +26,8 @@ void sort(int array[], int size){
 }
 
 void printArray(int array[], int size){
-    for(int i = 0; i<size; i++){
+	int i;
+    for(i = 0; i<size; i++){
         printf("%d", array[i]);
     }
 }
